@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main {
+    background-image: url(netflix.jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.main .box {
+    width: 100%;
+    height: 100%;
+    opacity: 0.234;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+.main .navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    MARGIN-LEFT: 120px;
+    margin-right: 120px;
+}
+.main .navigation img {
+    width: 155px ;
+    height: 115px;
+}
+.button-1 button {
+    width: auto;
+    height: 70px;
+    padding: 10px;
+  border-radius: 7px;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+font-size: 20px;
+cursor: pointer;
+}
+.button-1:hover {
+    background-color: aquamarine;
+}
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.h1-h2 {
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+}
+.content .h1-h2 h2 {
+    margin-top: 30px;
+}
+.content .h1-h2 p {
+    margin-top: 50px;
+}
+.content .h1-h2 input {
+    width: 40%;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.content .h1-h2 button {
+    width: auto;
+    height: auto;
+    padding: 10px;
+  border-radius: 7px;
+  background-color: red;
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.content .h1-h2 input {
+    font-size: 23px;
+}
+.sg-2:hover {
+    background-color: green;
+}
